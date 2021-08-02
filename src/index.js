@@ -42,5 +42,5 @@ function renderCountryCard(country) {
 
 function renderCountryList(list) {
   const markupList = countryList(list);
-  refs.countryList.innerHTML = markupList;
+  refs.cardContainer.innerHTML = markupList;
 }
